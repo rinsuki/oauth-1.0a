@@ -140,7 +140,7 @@ declare namespace OAuth {
   /**
    * Method used to hash the the OAuth and form/querystring data.
    */
-  export type HashFunction = (base_string, key) => string;
+  export type HashFunction = (base_string: string, key: string) => string;
 
   /**
    * Authorization header.
